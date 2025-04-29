@@ -10,6 +10,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    height: 100vh;
 
     font-family: 'Outfit';
     font-size: 18px;
@@ -56,6 +57,74 @@ p{
 }
 
 .price-info{
+    width: 100%;
     display: flex;
-    align-items: flex-start;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 50%;
+    
+    color: hsl(178, 100%, 50%);
+}
+
+.price img{
+    padding-right: 0.5rem;
+}
+
+.price span{
+    font-weight: 400;
+}
+
+.time-info{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: hsl(215, 51%, 70%);
+}
+
+.time-info img{
+    padding-right: 0.5rem;
+}
+
+.time-info span{
+    font-weight: 300;
+}
+
+hr{
+    width: 90%;
+    border: none;
+    border-top: 1px solid hsl(215, 32%, 27%);
+    margin-top: 1rem;
+}
+
+.creator-info{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 1.5rem;
+}
+
+.creator-icon img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-right: 1rem;
+}
+
+.creator-text{
+    font-size: 16px;
+    color: hsl(215, 51%, 70%);
+}
+
+.attribution{
+    font-size: 12px;
+    color: hsl(215, 51%, 70%);
+    margin-top: 1rem;
 }
