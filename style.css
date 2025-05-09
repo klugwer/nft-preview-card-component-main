@@ -59,7 +59,7 @@ body{
 
 .hover-picture{
     position: absolute;
-    scale: 15%;
+    transform: scale(0.15);
 }
 
 .picture .hover-picture{
